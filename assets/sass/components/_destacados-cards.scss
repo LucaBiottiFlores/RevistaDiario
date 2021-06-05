@@ -1,0 +1,41 @@
+// Cards Destacados Section
+
+.destacados__cards {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 2px;
+    .destacados__card {
+        border: 1px solid $smokyblack;
+        background-color: $isabeline;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: .3rem;
+        margin-top: 2rem;
+    }
+}
+
+.destacados__title {
+    font-family: $oldstandard;
+    font-weight: $bold;
+    font-size: $xx-large;
+    text-align: center;
+    padding: .3rem;
+    padding-top: 2rem;
+}
+
+.destacados__card--title {
+    font-family: $oldstandard;
+    font-weight: $regular;
+    font-size: $large;
+    color: $smokyblack;
+    padding: .2rem;
+    text-align: center;
+}
+
+.destacados__card--img  {
+    border: 1px solid black;
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+}

@@ -1,0 +1,23 @@
+//MANIFIESTO
+
+// Abstracts
+@import 'abstracts/variables';
+// Vendors
+
+// Base
+
+@import 'base/reset';
+// Layout
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/nosotros';
+@import 'layout/form';
+@import 'layout/footer';
+
+// Components
+@import 'components/cards';
+@import 'components/destacados-cards';
+@import 'components/buttons';
+@import 'components/inputs';
+
+// Page

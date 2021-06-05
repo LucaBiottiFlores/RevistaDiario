@@ -1,0 +1,62 @@
+//cards
+
+.main {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+    .card {
+        border: 1px solid $smokyblack;
+        background-color: $isabeline;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.card {
+    &__title {
+        font-family: $oldstandard;
+        font-weight: $bold;
+        font-size: $x-large;
+        padding: .5rem;
+    }
+    &__img {
+        padding: .5rem;
+    }
+    &__text {
+        padding: .5rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .main {
+        display: grid;
+        height: 60%;
+        grid-template-columns: 33% 33% 33%;
+        grid-gap: 20px;
+        .card {
+            border: 1px solid $smokyblack;
+            background-color: $isabeline;
+            width: 85%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    
+    .card {
+        height: 100%;
+        &__title {
+            font-family: $oldstandard;
+            font-weight: $bold;
+            font-size: $x-large;
+            padding: .5rem;
+        }
+        &__img {
+            padding: .5rem;
+        }
+        &__text {
+            padding: .5rem;
+        }
+    }
+}

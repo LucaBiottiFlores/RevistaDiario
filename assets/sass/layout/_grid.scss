@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template: 60px 100% 11% 5% 4.5% 35px / 100%;
+    grid-template-areas: "header" "main" "destacados" "nosotros" "form" "footer";
+}
+
+@media (min-width: 992px) {
+    .container {
+      grid-template: 68px 62% 25% 8% 10% 35px / 100%;
+      grid-template-areas: "header" "main" "destacados" "nosotros" "form" "footer";
+    }
+  }
+
+.header {
+    grid-area: header;
+    background: $granitegray;
+}
+
+.main {
+    grid-area: main;
+    background: $white;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.nosotros {
+    grid-area: nosotros;
+    background: $isabeline;
+}
+
+.destacados {
+    grid-area: destacados;
+    background: $lightgray;
+}
+
+.form {
+    grid-area: form;
+    background: $coolyellow;
+}
+
+.footer {
+    grid-area: footer;
+    background: $granitegray;
+}

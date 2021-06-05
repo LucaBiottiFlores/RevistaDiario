@@ -1,0 +1,23 @@
+//Form Styles
+
+.form {
+    text-align: center;
+    &__title {
+        font-family: $oldstandard;
+        font-weight: $bold;
+        font-size: $xx-large;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    &__text {
+        font-family: $oldstandard;
+        font-weight: $regular;
+        font-size: $large;
+        text-align: center;
+        padding: .3rem;
+    }
+   &__button {
+       margin-left: .2rem;
+   }
+}

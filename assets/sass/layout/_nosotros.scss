@@ -1,0 +1,19 @@
+//Nosotros section style
+
+.nosotros {
+    &__title {
+        font-family: $oldstandard;
+        font-weight: $bold;
+        font-size: $xx-large;
+        text-align: center;
+        padding: .3rem;
+        padding-top: .8rem;
+    }
+    &__text {
+        font-family: $oldstandard;
+        font-weight: $regular;
+        font-size: $medium;
+        text-align: center;
+        padding: .2rem;
+    }
+}

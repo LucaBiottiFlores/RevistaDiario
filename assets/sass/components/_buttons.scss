@@ -1,0 +1,21 @@
+//Buttons Styles
+
+.form__button {
+    padding: .5rem;
+    color: $white;
+    background-color: $smokyblack;
+    font-family: $raleway;
+    font-weight: $regular;
+    text-decoration: none;
+    &:hover {
+        border-color: $lightgray;
+        background-color: $isabeline;
+        color: $smokyblack;
+    }
+    &:focus {
+        background-color: $white;
+        border-color: $lightgray;
+        color: $lightgray;
+        box-shadow: none;
+    }
+}

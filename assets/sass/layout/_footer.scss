@@ -1,0 +1,12 @@
+//Footer Styles
+
+.footer {
+    &__text {
+        color: $white;
+        font-family: $oldstandard;
+        font-weight: $bold;
+        font-size: $medium;
+        text-align: center;
+        padding: .5rem;
+    }
+}

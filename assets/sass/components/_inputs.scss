@@ -1,0 +1,23 @@
+// Inputs Styles
+
+// Form input
+
+.form__input {
+    border: 1px solid black;
+}
+
+// Search Input
+
+@media (min-width: 992px) {
+    .search__input {
+        right:100px;
+        
+        border: 1px solid black;
+    }
+}
+
+@media (max-width: 992px) {
+    .search__input {
+     display:none;
+    }
+}
